@@ -13,6 +13,9 @@
 		2176AA8129ABEAFA0028E20C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2176AA8029ABEAFA0028E20C /* Preview Assets.xcassets */; };
 		2176AA8329ABEAFA0028E20C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176AA8229ABEAFA0028E20C /* Persistence.swift */; };
 		2176AA8629ABEAFA0028E20C /* iOS_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2176AA8429ABEAFA0028E20C /* iOS_Task.xcdatamodeld */; };
+		2176AA9329ABFA340028E20C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176AA9229ABFA340028E20C /* NetworkManager.swift */; };
+		2176AA9529ABFA4D0028E20C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176AA9429ABFA4D0028E20C /* Model.swift */; };
+		2176AAB129AC0B170028E20C /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176AAB029AC0B170028E20C /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		2176AA8029ABEAFA0028E20C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2176AA8229ABEAFA0028E20C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2176AA8529ABEAFA0028E20C /* iOS_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Task.xcdatamodel; sourceTree = "<group>"; };
+		2176AA9229ABFA340028E20C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2176AA9429ABFA4D0028E20C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2176AAB029AC0B170028E20C /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +61,14 @@
 		2176AA7829ABEAF80028E20C /* iOS-Task */ = {
 			isa = PBXGroup;
 			children = (
+				2176AA9129ABFA210028E20C /* Models */,
 				2176AA7929ABEAF80028E20C /* iOS_TaskApp.swift */,
 				2176AA7B29ABEAF80028E20C /* ContentView.swift */,
 				2176AA7D29ABEAF90028E20C /* Assets.xcassets */,
 				2176AA8229ABEAFA0028E20C /* Persistence.swift */,
 				2176AA8429ABEAFA0028E20C /* iOS_Task.xcdatamodeld */,
 				2176AA7F29ABEAFA0028E20C /* Preview Content */,
+				2176AAB029AC0B170028E20C /* ColorExtension.swift */,
 			);
 			path = "iOS-Task";
 			sourceTree = "<group>";
@@ -71,6 +79,15 @@
 				2176AA8029ABEAFA0028E20C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2176AA9129ABFA210028E20C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2176AA9229ABFA340028E20C /* NetworkManager.swift */,
+				2176AA9429ABFA4D0028E20C /* Model.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +162,10 @@
 			files = (
 				2176AA8329ABEAFA0028E20C /* Persistence.swift in Sources */,
 				2176AA7C29ABEAF80028E20C /* ContentView.swift in Sources */,
+				2176AA9329ABFA340028E20C /* NetworkManager.swift in Sources */,
+				2176AA9529ABFA4D0028E20C /* Model.swift in Sources */,
 				2176AA8629ABEAFA0028E20C /* iOS_Task.xcdatamodeld in Sources */,
+				2176AAB129AC0B170028E20C /* ColorExtension.swift in Sources */,
 				2176AA7A29ABEAF80028E20C /* iOS_TaskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

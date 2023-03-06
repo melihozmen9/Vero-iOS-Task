@@ -7,28 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214970E629ACEBCE00D17B66 /* iOS-Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 214970E429ACEBCE00D17B66 /* iOS-Task.xcdatamodeld */; };
+		214970EC29AD536700D17B66 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214970EB29AD536700D17B66 /* Home.swift */; };
+		214970EE29AD567400D17B66 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214970ED29AD567400D17B66 /* CardView.swift */; };
+		2149710F29AD6FF200D17B66 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2149710E29AD6FF200D17B66 /* Persistence.swift */; };
+		2174C7A729AF4F570088343E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2174C7A629AF4F560088343E /* Login.swift */; };
 		2176AA7A29ABEAF80028E20C /* iOS_TaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176AA7929ABEAF80028E20C /* iOS_TaskApp.swift */; };
 		2176AA7C29ABEAF80028E20C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176AA7B29ABEAF80028E20C /* ContentView.swift */; };
 		2176AA7E29ABEAF90028E20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2176AA7D29ABEAF90028E20C /* Assets.xcassets */; };
 		2176AA8129ABEAFA0028E20C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2176AA8029ABEAFA0028E20C /* Preview Assets.xcassets */; };
-		2176AA8329ABEAFA0028E20C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176AA8229ABEAFA0028E20C /* Persistence.swift */; };
-		2176AA8629ABEAFA0028E20C /* iOS_Task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2176AA8429ABEAFA0028E20C /* iOS_Task.xcdatamodeld */; };
 		2176AA9329ABFA340028E20C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176AA9229ABFA340028E20C /* NetworkManager.swift */; };
 		2176AA9529ABFA4D0028E20C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176AA9429ABFA4D0028E20C /* Model.swift */; };
 		2176AAB129AC0B170028E20C /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2176AAB029AC0B170028E20C /* ColorExtension.swift */; };
+		219DBFEB29ADEEC700DD0200 /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 219DBFEA29ADEEC700DD0200 /* Reachability */; };
+		219DBFEF29AE425D00DD0200 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219DBFEE29AE425D00DD0200 /* PhotoPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		214970E529ACEBCE00D17B66 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		214970EB29AD536700D17B66 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		214970ED29AD567400D17B66 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2149710E29AD6FF200D17B66 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = "../../../swift/swift ilkdenemeler/CoreDataSample/CoreDataSample/Persistence.swift"; sourceTree = "<group>"; };
+		2174C7A629AF4F560088343E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		2176AA7629ABEAF80028E20C /* iOS-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2176AA7929ABEAF80028E20C /* iOS_TaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_TaskApp.swift; sourceTree = "<group>"; };
 		2176AA7B29ABEAF80028E20C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2176AA7D29ABEAF90028E20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2176AA8029ABEAFA0028E20C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2176AA8229ABEAFA0028E20C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		2176AA8529ABEAFA0028E20C /* iOS_Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Task.xcdatamodel; sourceTree = "<group>"; };
 		2176AA9229ABFA340028E20C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2176AA9429ABFA4D0028E20C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		2176AAB029AC0B170028E20C /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		219DBFEE29AE425D00DD0200 /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,12 +45,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				219DBFEB29ADEEC700DD0200 /* Reachability in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		214970E329ACEBA600D17B66 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				214970E429ACEBCE00D17B66 /* iOS-Task.xcdatamodeld */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		214970E929AD532000D17B66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				214970EB29AD536700D17B66 /* Home.swift */,
+				214970ED29AD567400D17B66 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		214970EA29AD533300D17B66 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				219DBFEE29AE425D00DD0200 /* PhotoPicker.swift */,
+				2176AA9229ABFA340028E20C /* NetworkManager.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		2176AA6D29ABEAF80028E20C = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +97,14 @@
 		2176AA7829ABEAF80028E20C /* iOS-Task */ = {
 			isa = PBXGroup;
 			children = (
-				2176AA9129ABFA210028E20C /* Models */,
+				2176AA9129ABFA210028E20C /* Model */,
+				214970EA29AD533300D17B66 /* ViewModel */,
+				214970E929AD532000D17B66 /* View */,
+				214970E329ACEBA600D17B66 /* DataModel */,
 				2176AA7929ABEAF80028E20C /* iOS_TaskApp.swift */,
 				2176AA7B29ABEAF80028E20C /* ContentView.swift */,
+				2149710E29AD6FF200D17B66 /* Persistence.swift */,
 				2176AA7D29ABEAF90028E20C /* Assets.xcassets */,
-				2176AA8229ABEAFA0028E20C /* Persistence.swift */,
-				2176AA8429ABEAFA0028E20C /* iOS_Task.xcdatamodeld */,
 				2176AA7F29ABEAFA0028E20C /* Preview Content */,
 				2176AAB029AC0B170028E20C /* ColorExtension.swift */,
 			);
@@ -81,13 +119,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2176AA9129ABFA210028E20C /* Models */ = {
+		2176AA9129ABFA210028E20C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2176AA9229ABFA340028E20C /* NetworkManager.swift */,
 				2176AA9429ABFA4D0028E20C /* Model.swift */,
+				2174C7A629AF4F560088343E /* Login.swift */,
 			);
-			name = Models;
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +144,9 @@
 			dependencies = (
 			);
 			name = "iOS-Task";
+			packageProductDependencies = (
+				219DBFEA29ADEEC700DD0200 /* Reachability */,
+			);
 			productName = "iOS-Task";
 			productReference = 2176AA7629ABEAF80028E20C /* iOS-Task.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +175,9 @@
 				Base,
 			);
 			mainGroup = 2176AA6D29ABEAF80028E20C;
+			packageReferences = (
+				219DBFE929ADEEC700DD0200 /* XCRemoteSwiftPackageReference "Reachability.swift" */,
+			);
 			productRefGroup = 2176AA7729ABEAF80028E20C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -160,13 +204,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2176AA8329ABEAFA0028E20C /* Persistence.swift in Sources */,
+				214970EE29AD567400D17B66 /* CardView.swift in Sources */,
+				219DBFEF29AE425D00DD0200 /* PhotoPicker.swift in Sources */,
 				2176AA7C29ABEAF80028E20C /* ContentView.swift in Sources */,
 				2176AA9329ABFA340028E20C /* NetworkManager.swift in Sources */,
 				2176AA9529ABFA4D0028E20C /* Model.swift in Sources */,
-				2176AA8629ABEAFA0028E20C /* iOS_Task.xcdatamodeld in Sources */,
+				214970E629ACEBCE00D17B66 /* iOS-Task.xcdatamodeld in Sources */,
 				2176AAB129AC0B170028E20C /* ColorExtension.swift in Sources */,
+				214970EC29AD536700D17B66 /* Home.swift in Sources */,
 				2176AA7A29ABEAF80028E20C /* iOS_TaskApp.swift in Sources */,
+				2174C7A729AF4F570088343E /* Login.swift in Sources */,
+				2149710F29AD6FF200D17B66 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,14 +418,33 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		219DBFE929ADEEC700DD0200 /* XCRemoteSwiftPackageReference "Reachability.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		219DBFEA29ADEEC700DD0200 /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 219DBFE929ADEEC700DD0200 /* XCRemoteSwiftPackageReference "Reachability.swift" */;
+			productName = Reachability;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
-		2176AA8429ABEAFA0028E20C /* iOS_Task.xcdatamodeld */ = {
+		214970E429ACEBCE00D17B66 /* iOS-Task.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				2176AA8529ABEAFA0028E20C /* iOS_Task.xcdatamodel */,
+				214970E529ACEBCE00D17B66 /* DataModel.xcdatamodel */,
 			);
-			currentVersion = 2176AA8529ABEAFA0028E20C /* iOS_Task.xcdatamodel */;
-			path = iOS_Task.xcdatamodeld;
+			currentVersion = 214970E529ACEBCE00D17B66 /* DataModel.xcdatamodel */;
+			path = "iOS-Task.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct ArrayModel : Codable, Identifiable {
+struct ArrayModel : Codable, Identifiable, Hashable {
     var id: String {
         return task
     }
